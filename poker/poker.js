@@ -35,17 +35,11 @@ $(function() {
     var cards = getDeck();
     cards.shuffle();
 
-
-    var elementThatWasClicked = $(this)
-    console.log(elementThatWasClicked)
-    // remove the element
     $( "#c1" ).attr("src", "http://golearntocode.com/images/cards/" + cards[0]+ ".png");
     $( "#c2" ).attr("src", "http://golearntocode.com/images/cards/" + cards[1]+ ".png");
     $( "#c3" ).attr("src", "http://golearntocode.com/images/cards/" + cards[2]+ ".png");
     $( "#c4" ).attr("src", "http://golearntocode.com/images/cards/" + cards[3]+ ".png");
     $( "#c5" ).attr("src", "http://golearntocode.com/images/cards/" + cards[4]+ ".png");
-    //http://golearntocode.com/images/cards/5_of_diamonds.png
 
-    //elementThatWasClicked.parent().remove();
   });
 })
