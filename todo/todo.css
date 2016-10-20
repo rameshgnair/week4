@@ -1,0 +1,8 @@
+.thumbnail > img {
+  height: 100px;
+}
+
+.row {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+}
